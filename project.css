@@ -2,12 +2,64 @@ body{
     background-color: rgba(128, 128, 128, 0.61);
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 .first{
     margin: 10px 20px;
     background-color: white;
-    height: 900px;
+    height: 100%;
+    width: 100%;
 
+}
+.its{
+    display: flex;
+    /* height: 500px; */
+    width: 100%;
+    background-color: #f3f3f3;
+    /* margin: 20px; */
+    padding: 40px;
+    justify-content: space-between;
+}
+.boss{
+    margin-top: 100px;
+    float: left;
+}
+
+
+#test {
+    height: 200px;
+    width: 200px;
+    margin-right: 100px;
+    margin-top: 40px;
+
+}
+
+.yes{
+    /* border: solid; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: space-between;
+    background-color: white;
+    width: 30%;
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.yes h3{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+}
+.yes img{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    /* float: left; */
+    margin-right: 100%;
+    background-color: white;
+    
 }
 ul{
     
@@ -15,18 +67,34 @@ ul{
     justify-content: space-evenly;
     margin-top: 10px;
 }
+.sup{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
 li{
     list-style: none;
     margin-top: 10px;
-    background-color: rgba(128, 128, 128, 0.541);
+    background-color: #f3f3f3;
     height: 25px;
     width: 70px;
     border-radius: 10px;
 }
+ul span{
+    padding-bottom: 5px;
+}
+#truck {
+    float: right;
+    margin-right: 10px;
+}
+
 span img{
     height: 20px;
     width: 20px;
-    margin: 0 auto;
+
+    margin: 0px auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
    
     background-color: rgba(128, 128, 128, 0.541);
 }
@@ -51,6 +119,48 @@ input{
 
    
 }
+.gene{
+    display: flex;
+    /* box-sizing: border-box; */
+    box-shadow: 5px solid black;
+    justify-content: space-between;
+    /* width: 700px; */
+    /* border:  solid; */
+}
+.gene img{
+    height: 120px;
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px ;
+    
+   
+    
+
+}
+.bgss input{
+    justify-content: space-evenly;
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+    margin-left: 200px;
+    
+  
+   
+}
+.bgss label{
+    font-size: 20px;
+    text-align: center;
+
+}
+.img{
+    /* display: flex; */
+    width: 400px;
+    height: 180px;
+    background-color: #f3f3f3;
+    margin: 7px;
+   
+    border-radius: 20px;
+}
 .johnson img{
     height: 50px;
     width: 56px;
@@ -66,11 +176,10 @@ input{
    margin-left: 40px;
    font-size: 30px;
 }
-span{
-    margin-top: 10px;
-    
-  
+span img{
+    margin-top: 20px;
 }
+/*  */
 .hero{
  
     display: flex;
@@ -79,7 +188,7 @@ span{
 .mother{
     margin: 50px;
     height: 300px;
-    background-color: rgba(128, 128, 128, 0.541);
+    background-color: #f3f3f3
 }
 .op2{
   margin-left: 500px;
@@ -101,7 +210,7 @@ button{
 .op2 img{
     height: 20px;
     width: 10px;
-    margin-top:px;
+   
 }
 .lop{
     display: flex;
@@ -113,4 +222,122 @@ button{
    margin: auto;
   
    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin: auto;
+}
+.well p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.nice button{
+    border: none;
+    width: 100px;
+}
+.nice{
+    margin-top: 50px;
+    float: left;
+    margin-right: 10px;
+}
+#gud{
+    height: 40px;
+    width: 300px;
+    border: 2px solid lightblue;
+    margin: 0px auto;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.well label{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.three2 p{
+margin-left: 30px;
+}
+.three2 h3{
+    margin-left: 30px;
+}
+.items{
+    margin-top: 90px;
+    margin-right: 14px;
+
+}
+.items img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+#met{
+    height: 50px;
+}
+#dry{
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+footer img{
+    height: 70px;
+    width: 70px;
+    margin-left:10px ;
+}
+
+.popup{
+    width: 60%;
+    display: flex;
+    position: fixed;
+    top: 15%;
+    background-color: lightblue;
+    left: 20%;
+    display: none;
+}
+button:hover{
+    background-color: grey;
+}
+
+.product-image{
+    width: 50%;
+}
+
+.product-image img{
+    width: 100%;
+    /* height: 100%; */
+    /* border: solid; */
+}
+.productdetail{
+    width: 30%;
+    padding: 20px;
+    /* border: solid; */
+    /* padding: 20%; */
+}
+.productdetail box-icon{
+    
+    float: right;
+    cursor: pointer;
+   
+
+}
+/* .first span{
+    width: 40px;
+} */
+.productdetail h2{
+    margin-top: 50px;
+}
+.productdetail button{
+    border-style: none;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: black;
 }
